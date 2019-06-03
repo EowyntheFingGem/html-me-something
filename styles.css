@@ -1,0 +1,30 @@
+body {
+	background-color: #212b31;
+	color: #e6c200;
+	font-family: 'Crimson Text', serif;
+	margin: 25px 250px 250px 250px;
+	align-self: flex-start;
+	width: 55%;
+	float: center;
+}
+
+header.img {
+	align-self: top
+	width: 75%;
+}
+
+img {
+	border: 2px solid #e6c200;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a:link {
+	color: #b39700;
+}
+
+a:hover {
+	text-transform: uppercase;
+	color: #ffd700;
+}
