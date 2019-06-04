@@ -9,15 +9,29 @@ body {
 }
 
 header.img {
-	align-self: top
-	width: 75%;
+	width: 60%;
 }
 
 img {
-	border: 2px solid #e6c200;
+	border: 1px solid #e6c200;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: 2px 2px 2px goldenrod;
+}
+
+p {
+	padding: 3%;
+	font-family: 'Alegreya', serif;
+}
+
+#flint {
+	text-transform: uppercase;
+}
+
+.pirate:hover {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 a:link {
